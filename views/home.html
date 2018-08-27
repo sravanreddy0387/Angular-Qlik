@@ -1,0 +1,51 @@
+<div class="row header" ng-cloak>
+    <div class="col-md-12">
+        <drop-down data-dimension="'Cases Open/Closed'" data-title="'CASES OPEN/CLOSED'" data-id="'cases'" data-showselected="true"></drop-down>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="fkpi">
+            <h3 class="text-center">High Priority Cases</h3>
+            <div class="text-center"></div>
+            <h2 class="text-center">{{ kapi[0] }}</h2>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <get-object qvid="'ycppXj'" id="'ycppXj'" height="400" interaction="true"></get-object>
+    </div>
+</div>
+
+
+<div class="row">
+
+    <tabset>
+        <tab heading="Chart 1" select="resizeIt()">
+            <div class="col-md-12">
+
+                <get-object qvid="'hRZaKk'" id="'hRZaKk'" interaction="true"></get-object>
+            </div>
+        </tab>
+        <tab heading="Chart 2" select="resizeIt()">
+            <div class="col-md-12">
+                <get-object qvid="'xfvKMP'" id="'xfvKMP'" interaction="true"></get-object>
+            </div>
+        </tab>
+    </tabset>
+
+
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <get-object qvid="'a5e0f12c-38f5-4da9-8f3f-0e4566b28398'" id="'a5e0f12c-38f5-4da9-8f3f-0e4566b28398'" interaction="true"></get-object>
+    </div>
+    <div class="col-md-6">
+        <get-object qvid="'PAppmU'" id="'PAppmU'" interaction="true"></get-object>
+    </div>
+</div>
